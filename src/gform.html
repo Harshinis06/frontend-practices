@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>gform</title>
+</head>
+<body>
+<h1><center>
+<style>
+p.uppercase{
+ text-transform:uppercase;
+}
+</style>
+<p class="uppercase"><font color="red" size="8">gform</p></font color></center>
+<form action="D:\html\psnalogin.html" method="post" id="psna">
+   <label for="fname">First Name</label>
+   <input type="text" id="fname" name="fname" size="15"><br>
+   <label for="lname">Last Name</label>
+   <input type="text" id=lname name="lanme" size="15" ><br>
+   <label for="email">User Name</label>
+   <input type="email" id="email" name="email" size="15"><br>
+   <label for="pwd">Password</label>
+   <input type="text" id="pwd" name="pwd" pattern="[A-Za-z0-9]{6}" size="15"><br>
+   <label for="phn">Phone Number</label>
+   <input type="text" id="phn" name="phn" pattern="[0-9]{10}" size="15"><br>
+   <label for="birthday">Birthday</label>
+   <input type="date" id="birthday" name="birthday"><br>
+   <label for="gender">Gender</label> <br> 
+   <input type="radio" id="gender" name="gender">male<br>
+   <input type="radio" id="gender" name="gender">female<br>
+   <input type="radio" id="gender" name="gender" >others<br>
+   <button type="submit" value="submit">submit</button>
+   <button type="reset" value="reset">reset</button>
+</form>	
+</body>
+</html>

@@ -1,0 +1,67 @@
+<style type="text/css">
+  #div1
+      {
+    width:80%;
+    border:solid black 2px;
+    background:black;
+    color:pink;
+    margin:0px 0px 100px 200px;
+    padding:50px 50px 50px 80px;
+       }
+
+   body
+      {
+    background:yellow;
+    font-family:Consolas;
+    
+        }
+   h1,h2,h3,h4
+   {
+    font-family:Copperplate Gothic;
+    color:gray; 
+     }
+   .blueboldtext
+    {
+    font-size:small;
+    color:red;
+    font-weight:bold;
+      } 
+   .largegreentext
+     {  font-size:25;
+    color:green;
+    font-weight:bold;
+       }
+    .blueboldtext
+    {
+    font-size:15;
+    color:red;
+    font-weight:italic;
+      } 
+  .underline
+     { 
+      text-decoration:underline;
+      }
+  .txtcolor
+      {
+      color:orange;
+       }
+  .txtspace
+    {
+     letter-spacing:10px;
+     }
+   .txtalign
+     {
+        text-align:center;
+        }
+    .txtdeco
+     {
+        text-decoration:underline;
+        }
+     .txttrans
+     {
+        text-transform:uppercase;
+        }
+     .wordspace
+      {  word-spacing:40px;
+        }
+</style>

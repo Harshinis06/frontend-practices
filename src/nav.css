@@ -1,0 +1,13 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+header,nav{
+	display: block;
+}
+.Container{
+	width: 1000px;
+	margin: 0px auto;
+	border: 2px solid black;
+}

@@ -1,0 +1,58 @@
+
+@import "customerd.css";
+
+.card{
+  background-color: white;
+  width: 650px;
+  border-style: ridge;
+  border: 1px  ridge ;
+  padding: 5px 5px;
+  margin: 2px 0px 40px 1px;
+  width:250px;
+  height:150px;
+  padding :0px 0px 0px 0px;
+  
+}
+
+
+.card_header{
+	font-family:calibri;
+font-size:24px;
+color:white;
+background:linear-gradient( #3AB4F2 300px,rgba(0, 0, 0, 0) 0%);
+height: 45px; 
+padding:2px 0px 0px 10px;
+}
+ img  a{
+ 	
+	padding:0px 0px 0px 500px;
+}
+
+.role{
+	float:right;
+padding:0px 20px 0px 2px;
+font-family:calibri;
+}
+.role a{
+	color:#3461aa;
+	text-decoration: none;
+	font-family:calibri;
+}
+
+
+.card_wrap{
+padding:20px 0px 90px 90px;
+
+	display:inline-flex;
+flex-wrap: wrap;
+height:50px;
+justify-content: space-around;
+}
+
+
+.containerc_body{
+	height:340px;
+
+	padding:0px 2px 2px 2px;
+	border:0px solid black;
+}

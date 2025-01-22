@@ -1,0 +1,32 @@
+<style type="text/css">
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+header,nav{
+	display: block;
+}
+h1{
+	background-color: blue;
+	padding: 10px 40px;
+	border-style: solid;
+}
+.container{
+	width: 1000px;
+	margin: 0px auto;
+	border: 2px solid black;
+}
+.top_nav{
+	float: left;
+	width: 768px;
+}
+.clear{
+	clear: both;
+}
+.top_nav ul li{
+	float: left;
+	padding: 35px 20px;
+	display: inline-block;
+}
+</style>

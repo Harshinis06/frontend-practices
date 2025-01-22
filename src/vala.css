@@ -1,0 +1,143 @@
+
+.images{
+	background-image: url(1000_F_420814518_YdFVo0aeH1Dx9cDKmU7NQroFaFWxCYUa.png);
+	margin-left: 25%;
+	width:50%;
+	height:900px;
+	border-radius: 50px;
+	justify-content: space-between;
+}
+.first{
+text-align:center;
+   padding-top: 80px; 
+  padding-left: 790px;
+}
+.flow{
+	 float:right;
+	 position: absolute;
+     top:322px;
+     right: 343px;
+}
+.flows{
+	float:left;
+	position: absolute;
+    top:36px;
+    left: 343px;
+}
+
+.words{
+   text-align:center;
+   padding-top: 80px; 
+  padding-left: 790;
+   font-family:Brush Script MT, Brush Script Std, cursive;
+   font-weight: bold;
+   color:#9966ff;
+   font-size: 55px;
+   font-variant-caps: small-caps; 
+
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+.foot{
+	align-content: center;
+	 padding:1px 290px;
+	 width:100px;
+	 height:100px;	
+
+}
+.invite{
+	margin-top: 1px;
+     animation: 2s ease-out 0s 1 slideInFromLeft;
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+ 
+}
+.head{
+	text-align: center;
+	font-family:  Brush Script MT, Brush Script Std, cursive;
+	padding-top:5px;
+	padding-left: 20px;
+	font-size:25px;
+	font-variant-numeric: sans-serif;
+	font-variant-caps: small-caps; 
+	  animation: 3s ease-out 0s 1 slideInFromLeft;
+}
+.weeks{
+	width: 2px;
+}
+table,th{
+	padding-top:5px;
+	padding-left: 49.3px;
+    font-family:  ink free;
+	text-align: center;
+	
+    font-size:20px;
+    color:#ff6666;
+     font-weight: bold;
+    font-variant-caps: small-caps; 
+      animation: 4s ease-out 0s 1 slideInFromLeft;
+}
+table,tr{
+	padding-top:5px;
+	padding-left: 49.3px;
+    font-family:  ink free;
+	text-align: center;
+	
+    font-size:12px;
+    color:#0066ff;;
+     font-weight: bold;
+    font-variant-caps: small-caps; 
+      animation: 4s ease-out 0s 1 slideInFromLeft;
+}
+tr,td{
+	 font-family:  ink free;
+	padding-top:15px;
+	padding-left: 49.3px;
+	animation: 5s ease-out 0s 1 slideInFromLeft;
+}
+.one{
+	animation: 6s ease-out 0s 1 slideInFromLeft;
+}
+.fiveth{
+animation: 7s ease-out 0s 1 slideInFromLeft;
+}
+.tewelth{
+animation: 8s ease-out 0s 1 slideInFromLeft;
+}
+.nineteen{
+animation: 9s ease-out 0s 1 slideInFromLeft;
+}
+.twentysix{
+	animation: 10s ease-out 0s 1 slideInFromLeft;
+}
+.heart{
+	margin: 100px;
+    border-image-outset: inherit;
+    height:45px;
+     border: 1px solid #aaa;
+  border-radius: 50%;
+  box-shadow: inset 2px 0 2px tomato, 0 0 5px black;
+		animation: 11s ease-out 0s 1 slideInFromLeft;
+
+}
+a{
+	font-size:30px;	
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	color: #330033;
+    text-align: center;
+	padding top:15px;
+	text-decoration: none;
+
+	
+}
+.location{
+	width: 50px;
+	height:40px;
+	align-content: center;
+	animation: 12s ease-out 0s 1 slideInFromLeft;
+}

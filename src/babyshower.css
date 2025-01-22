@@ -1,0 +1,184 @@
+/* 
+@font-face{
+font-family:CustomFont;
+src:url('Fonts/Copperplate Gathic Light.ttf') format('truetype');
+}
+
+@font-face{
+font-family:CustomFont2;
+src:url(https://fonts.google.com/specimen/Pacifico);
+}
+
+@font-face{
+font-family:CustomFont3;
+src:url(Inkfree.ttf);
+}
+@font-face{
+font-family:CustomFont4;
+src:url(bea.ttf);
+}
+@font-face{
+font-family:CustomFont5;
+src:url(cab.otf);
+}
+
+@font-face {
+    font-family: "tangerineregular";
+    src: url("./Fonts/tangerine-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+
+} */
+@-ms-viewport{
+  width:divice-width;
+}
+.photo{
+	background-image: url(https://i.pinimg.com/564x/fa/92/34/fa92348e6a37636d8c5ac829d8554339.jpg);
+	background-size:cover;
+  width:580px;
+	height:1000px;
+	border-radius: 50px;
+	
+}
+.word{
+   text-align:center;
+   padding-top: 80px; 
+   padding-left: 790;
+   font-family:  'Rochester', cursive;
+   font-weight:900;
+   color:	#bb3f3f;
+   font-size: 40px;
+   font-style:bold;
+   font-variant-caps:all-small-caps; 
+  animation: 2s ease-out 0s 1 slideInFromLeft;
+}
+.foot{
+	 align-content: center;
+	 padding-left:185px;
+	 width:200px;
+	 height:100px;	
+}
+/* .invite{
+   font-family:Brush Script MT, Brush Script Std, cursive;
+   margin-top: 1px;
+} */
+.hon{
+color:#b0857f;
+margin-top: 1px;
+font-weight:900;
+font-family: 'Rochester', cursive;
+text-shadow: 10px 10px 10px #b0857f;
+animation: 3s ease-out 0s 1 slideInFromLeft;
+}
+.date{
+font-family:'Kelly Slab', cursive;
+margin-top: 1px;
+font-weight: 900;
+
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+ 
+}
+.head{
+	text-align: center;
+	font-family:'Kelly Slab', cursive;
+	padding-top:5px;
+	padding-left: -5px;
+  font-weight:bold;
+	font-size:25px;
+	font-variant-numeric:cursive, sans-serif;
+	font-variant-caps: small-caps; 
+	  animation: 4s ease-out 0s 1 slideInFromLeft;
+}
+table,th{
+	padding-top:5px;
+	padding-left:45px;
+    font-family: 'Rochester', cursive;
+	text-align: center;
+    font-size:25px;
+    color:#a83737;
+    font-weight: 900;
+    font-variant-caps: small-caps; 
+      animation: 4s ease-out 0s 1 slideInFromLeft;
+}
+.heart{
+	margin: 100px;
+    border-image-outset: inherit;
+    height:45px;
+     border: 1px solid #aaa;
+  border-radius: 50%;
+  box-shadow: inset 2px 0 2px tomato, 0 0 10px black;
+		animation: 13s ease-out 0s 1 slideInFromLeft;
+
+}
+table,tr{
+	padding-top:5px;
+	padding-left:45px;
+    font-family:  'Rochester', cursive;
+	text-align: center;
+    font-size:15px;
+    color:#002e72;
+     font-weight: 900;
+    font-variant-caps: small-caps; 
+      animation: 6s ease-out 0s 1 slideInFromLeft;
+}
+tr,td{
+	 font-family:'Rochester', cursive;
+	padding-top:15px;
+  font-weight: 900;
+	padding-left:45px;
+	animation: 7s ease-out 0s 1 slideInFromLeft;
+}
+.one{
+	animation: 8s ease-out 0s 1 slideInFromLeft;
+}
+.fiveth{
+animation: 9s ease-out 0s 1 slideInFromLeft;
+}
+.tewelth{
+animation: 10s ease-out 0s 1 slideInFromLeft;
+}
+.nineteen{
+animation: 11s ease-out 0s 1 slideInFromLeft;
+}
+.twentysix{
+	animation: 12s ease-out 0s 1 slideInFromLeft;
+}
+a{
+	font-size:25px;	
+	font-family: 'Kelly Slab', cursive;
+	color: #330033;
+    text-align: center;
+	padding-top:30px;
+  font-weight: 900;
+	text-decoration: none;
+        margin-left:-px;
+       animation: 14s ease-out 0s 1 slideInFromLeft;
+	
+}
+.location{
+  font-family: 'Rochester', cursive;
+	width: 70px;
+	height:60px;
+  padding-left:130px ;
+	align-content: center;
+	animation: 14s ease-out 0s 1 slideInFromLeft;
+}
+.address{
+  font-family: 'Rochester', cursive;
+text-align:center;
+font-size:21px;
+padding-top:10px;
+font-weight: 900;
+padding-left:5px;
+}
+
+
+
+/* Brush Script MT, Brush Script Std, cursive; */

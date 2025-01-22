@@ -1,0 +1,81 @@
+@import "cardviewdesign.css";
+
+.table_layout{
+	width:80%;
+	height: 50px;
+	border-collapse: collapse;
+    float: center;
+    border:0px solid green;
+    font-family: calibri;
+}
+
+.table_layout th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+}
+.table_layout th, .table_layout td{
+	padding-top:12px;
+	padding-bottom: 12px;
+    text-align:left;
+    border-bottom: 2px solid #ddd;  
+}
+
+.table_layout td a{
+	text-decoration: none;
+	color:#0066ff;
+	}
+.table_layout tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+.table_layout tr:hover {
+	background-color: #ddd;
+}
+
+/**getcustdetails.css**/
+
+.container_cuslayout{
+	float: left;
+    padding-top: 5px;
+	margin: 30px 20px 20px 90px;
+	border:0px solid black;
+	font-family: calibri;
+}
+
+.container_cuslayout  a{
+	text-decoration: none;
+	padding:7px 15px 0px 5px;
+	color:	#c0c1ba;
+}
+.containerc_body{
+	height:200px;
+    margin: 100px 0px 0px 85px;
+	border:0px solid black;
+
+}
+
+
+.card{
+  
+  border-style: ridge;
+  border: 0px  ridge ;
+  padding: 5px 5px;
+  margin: 30px 0px 40px 0px;
+  width:300px;
+  height:150px;
+  
+  
+}
+.role{
+	padding-top:15px;
+	padding-left: 20px;
+   font-family:calibri;
+   font-size: 18px;
+}
+.containerc_body a{
+	padding-top:30px;
+	text-decoration: none;
+	white-space: 50px
+	font-family:calibri;
+}

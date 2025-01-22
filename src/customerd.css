@@ -1,0 +1,104 @@
+@import "style.css" ;
+.cusdetails{
+  font-size:28px;
+  font-family:calibri;
+  color:  #3d3a3a;
+  padding:15px 0px 5px 57px ;
+
+}
+.cusdetails img{
+  top:10px;
+  left:3px;
+  position: relative;
+}
+.menu  a img{
+	color:#c0c1ba;
+}
+.menu  li{
+	display:inline-block;
+	padding:7px 15px 0px 5px;
+	text-decoration: none;
+	color:	#c0c1ba;
+}
+
+.menu  li  a{
+	display:inline-block;
+	padding:7px 15px 0px 50px;
+	text-decoration: none;
+	color:	#c0c1ba;
+	border:3px;
+	font-family:calibri;
+}
+.menu  li a:hover:not(.active){
+	color:black;
+	background-color:white; 
+}
+.menu  li a.active{
+	color:black;
+}
+.filter  li{
+	display:inline-block;
+	padding:0px 50px 0px 1000px;
+	
+	font-family:calibri;
+	
+	text-decoration: none;
+	
+}
+
+/**cardview
+
+.card{
+  background-color: white;
+  width: 700px;
+border-style: ridge;
+  border: 1px  ridge ;
+  padding: 5px 5px;
+  margin: 3px 0px 0px 2px;
+  width:250px;
+  height:150px;
+  padding :0px 0px 0px 0px;
+
+
+
+}
+
+.headc{
+	font-family:calibri;
+font-size:25px;
+color:white;
+background:linear-gradient( #3AB4F2 300px,rgba(0, 0, 0, 0) 0%);
+height: 45px; 
+padding:2px 0px 0px 10px;
+}
+img{
+float:left;
+padding:0px 20px 0px 2px;
+}
+.role{
+	float:right;
+padding:0px 20px 0px 2px;
+}
+.role a{
+	color:gray;
+	text-decoration: none;
+}
+
+
+.card_wrap{
+padding:30px 0px 90px 90px;
+
+	display:inline-flex;
+flex-wrap: wrap;
+height:50px;
+justify-content: space-around;
+}
+
+.items .card_wrap{
+	align-items-top:50px;
+}
+**/
+
+
+
+
