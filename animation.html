@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>animation</title>
+        <style>
+            
+            #line{
+               font-size: 20px;
+               font-family:'Courier New', Courier, monospace; 
+               position: relative;
+               display: inline;
+               color:aqua;
+               font-family: cursive;
+               padding-left:0px;
+               padding-top:0px;
+
+               animation:happy 2s linear 0s;
+
+            }
+           img{
+                width:50px;
+                height:50px;
+                position:relative;
+               
+               padding-left:200px;
+
+                animation:image 2s linear 1s;
+            }
+             @keyframes happy{
+                0%{
+                    top:0px;
+                    left:0px;
+                    
+                }
+                25%{
+                    top:0px;
+                    left:200px;
+                    color:cadetblue;
+                    font-family: cursive;
+                }
+             }
+             @keyframes image{
+                0%{
+                    top:0px;
+                    left:0px;
+                }
+                25%{
+                    /* width:80px;
+                height:80px; */
+                    top:200px;
+                    left:0px;
+                }
+
+             }
+        </style>
+    </head>
+    <body>
+      <div id="line">
+          Happy Birthday
+          </div>
+            <img src="assests/demon.webp">
+    </body>
+</html>

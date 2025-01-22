@@ -1,0 +1,14 @@
+.head{
+    font-size: larger;
+    color:brown;
+    
+}
+.nav-link{
+    text-decoration: none;
+    color: aliceblue;
+}
+section{
+    background: url("assests/photo.avif") no-repeat fixed;
+    background-size: cover;
+  
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-ezrFnL9GBOAB5trmnoqUqQT0dL3sfpacXqYl6uLg3vzEp0j6ZuLQyBE7QT+npFV2" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        li {
+            float: left;
+            position: relative;
+        }
+
+        a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        a:hover {
+            background-color: #555;
+        }
+
+        .dropdown {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            z-index: 1;
+            width: 200px; /* Adjust the width as needed */
+            padding: 10px;
+        }
+
+        .dropdown a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .arrow-up {
+            transform: rotate(180deg);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .tab-content {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            z-index: 1;
+            width: 200px; /* Adjust the width as needed */
+            padding: 10px;
+        }
+
+        li:hover .dropdown, .tab-content.active {
+            display: block;
+        }
+    </style>
+    <title>Your Website</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li id="toggleDropdown"><a href="#">Home <i class="fas fa-chevron-down"></i></a>
+                <ul class="dropdown">
+                    <li><a href="#">Submenu 1</a></li>
+                    <li><a href="#">Submenu 2</a></li>
+                    <li><a href="#">Submenu 3</a></li>
+                </ul>
+            </li>
+            <li id="toggleTab"><a href="#">Open Tab</a>
+                <div class="tab-content">
+                    <ul>
+                        <li><a href="#">Item 1</a></li>
+                        <li><a href="#">Item 2</a></li>
+                        <li><a href="#">Item 3</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var toggleDropdown = document.getElementById('toggleDropdown');
+            toggleDropdown.addEventListener('click', function() {
+                var dropdown = toggleDropdown.querySelector('.dropdown');
+                var icon = toggleDropdown.querySelector('i');
+                
+                if (dropdown.style.display === 'none' || dropdown.style.display === '') {
+                    dropdown.style.display = 'block';
+                    icon.classList.add('arrow-up');
+                } else {
+                    dropdown.style.display = 'none';
+                    icon.classList.remove('arrow-up');
+                }
+            });
+
+            var toggleTab = document.getElementById('toggleTab');
+            var tabContent = toggleTab.querySelector('.tab-content');
+            toggleTab.addEventListener('click', function() {
+                tabContent.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>

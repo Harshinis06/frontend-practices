@@ -1,0 +1,29 @@
+<html>
+    <HEAD>
+        
+    <title>
+        fruits
+    </title>
+    </HEAD>
+    <BODY >
+        <ol>
+            <span id="display"></span>
+            <!-- <li><span id="display"></span></li>
+            <li><span id="display"></span></li> -->
+            
+        </ol>
+    <script>
+ let fruits=['apple','mango','orange'];
+   //let 
+   let str='<ol>';
+for(let fruit of fruits){
+    str=str+`<li>${fruit} </li>`;
+}
+ console.log(str)
+let displayTag=document.getElementById('display');
+displayTag.innerHTML=str;
+
+    </script>
+    
+   </BODY>
+</html>

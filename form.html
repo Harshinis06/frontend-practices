@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <title>form filling</title>
+        <style>
+            div{ 
+                background-color:rgb(243, 174, 90);  
+               text-align: center;
+               background: linear-gradient(60px,blueviolet,white);
+            }  
+ ::-webkit-scrollbar {
+  width: 5px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+ 
+  border-radius: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray; 
+  border-radius: 5px;                                
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:grey; 
+  
+}
+/* button:hover{
+    background-color: burlywood;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+}  */
+            
+button{
+    background-color: burlywood;
+    color: black;
+   display: inline;
+    border-radius: 11px;
+    margin: 25px 15px;
+   
+}
+button:hover{
+    background-color:blueviolet;
+    color: wheat;
+    
+}  
+.submit{
+    background-color: mediumspringgreen;
+    color: black;
+   display: inline;
+    border-radius: 11px;
+    margin: 25px -9px 20px 20px;
+}
+.submit:hover{
+    background-color:blueviolet;
+    color: wheat;
+    
+}  
+.reset{
+    background-color: teal;
+    color: black;
+   display: inline;
+    border-radius: 11px;
+    margin: 25px -8px;
+}
+.reset:hover{
+    background-color:tomato;
+    color: wheat;
+    
+} 
+.emi{
+    display: block;
+    width: 550px;
+}
+ 
+
+        </style>
+    </head>
+    <body>
+        <div>
+        <h2  >KM Custom HTML Form Example Using AppleScript</h2>
+        <form onsubmit="validate()" method="post" action="">
+        <table border="1px" align="center" style="height:100px">
+            <tr>
+                <td><lable>Name:</lable></td>
+                <td><input type="text"/></td>
+            </tr>
+            <tr>
+                <td><lable>Email:</lable></td>
+                <td><input type="email" class="emi"/></td></style>
+            </tr>
+            <tr>
+                <td><lable>Password:</lable></td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td><lable>Approval Required:</lable></td>
+                <td><input type="checkbox">Do you approve?</inpu></td>
+            </tr>
+            <tr><td><lable>Pick Your Favorite</lable>
+                <td><input type="radio" name="r1">Choice A</input><br>
+                <input type="radio" name="r1">Choice B</input><br>
+                <input type="radio" name="r1">Choice C</input></td>
+            </tr>
+            <tr>
+                <td><label>Popup Menu:</label></td>
+                <td><select>
+                    <option>Texas--TX</option>
+                    <option>Canada</option>
+                    <option>Japan</option>
+                    <option>China</option> 
+                </select></td>
+            </tr>
+            <tr>
+                <div id="list">
+                <td><lable>List</lable></td>
+                <td><select size="4">
+                    <option>California--CA</option>
+                    <option>Colorado--CO</option>
+                    <option>Connecticut--CN</option>
+                    <option>Dalifornia--DA</option>
+                    <option>Dolorado--DO</option>
+                    <option>Landon</option>
+                    <option>America</option>
+                </select></td></div>
+            </tr>
+            <tr>
+                <td><lable>Field Ignored by KM</lable></td>
+                <td><input type="field"></input></td>
+            </tr>
+            <tr>
+                <td><lable>Text Area</lable></td>
+                <td><textarea rows="7" cols="70"></textarea></td>
+            </tr>
+          
+            <!-- <tr>
+                
+                <td colspan="3"><input type="submit" value="save" style="background-color: darkkhaki; border-radius: 10px; padding: 3px ;"/>
+                  <button onclick ="" style="background-color:firebrick; border-radius: 10px; padding: 3px ;">cancel</button>
+                      <input type="reset" value="resize" style="background-color: rosybrown; border-radius: 10px; padding: 3px ;"/></td>
+            </tr> -->
+        </table>
+    <input type="submit" value="save" class="submit"/>
+           <button onclick ="">cancel</button>
+              <input type="reset" value="resize" class="reset"/>
+    </style>
+        </form>
+        </div>
+    </body>
+</html>

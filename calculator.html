@@ -1,0 +1,96 @@
+<html>
+    <title>
+        calculator
+    </title>
+    <link rel="stylesheet" href="D:\WebClass\css\bootstrap.css">
+    <link rel="stylesheet" href="D:\WebClass\css\mdb.css">
+    <link rel="stylesheet" href="D:\WebClass\fa\css\all.css">
+    <head></head>
+    <body>
+        <div class="container mt-5 ">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header text-center bg-info">
+                            calculator
+                        </div>
+                       <div class="card-body">
+                        <form>
+                            <div class="form-group ">
+                                <input type="text" placeholder="enter value" class="form-control mb-4" id="first"/>
+                                <input type="text" placeholder="enter value" class="form-control" id="sec"/>
+                            </div>
+                        </form>
+                       
+                       <div class="d-flex justify-content-between">
+                        <button id="add" class="bg-info"><i class="fa-solid fa-plus"></i>
+
+                        </button>
+                        <button id="sub" class="bg-info"><i class="fa-solid fa-minus"></i>
+                            
+                        </button>
+                        <button  id="mul" class="bg-info">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                        <button  id="div" class="bg-info">
+                            <i class="fa-solid fa-divide"></i>
+                        </button>
+                       </div>
+                       </div>
+                       <div class="card-footer bg-info">Result:
+                             <span id ="res"></span> 
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <script>
+             let value1=document.getElementById("first");
+              let value2=document.getElementById("sec");
+              let add1=document.getElementById("res"); 
+
+
+            let addbut=document.getElementById("add");
+
+            addbut.addEventListener('click',function(event){
+               event.preventDefault();
+              let a=Number(value1.value);
+              let b=Number(value2.value);
+              let addres=a+b;
+
+                   add1.innerText= `${a} + ${b} = ${addres}`;
+            })
+            let subbut=document.getElementById("sub");
+
+            subbut.addEventListener('click',function(event){
+               event.preventDefault();
+              let a=Number(value1.value);
+              let b=Number(value2.value);
+              let addres=a-b;
+
+                   add1.innerText= `${a} - ${b} = ${addres}`;
+            })
+
+            let mulbut=document.getElementById("mul");
+
+            mulbut.addEventListener('click',function(event){
+               event.preventDefault();
+              let a=Number(value1.value);
+              let b=Number(value2.value);
+              let addres=a*b;
+
+                   add1.innerText= `${a} x ${b} = ${addres}`;
+            })
+             let divbut=document.getElementById("div");
+
+            divbut.addEventListener('click',function(event){
+               event.preventDefault();
+              let a=Number(value1.value);
+              let b=Number(value2.value);
+              let addres=a/b;
+
+                   add1.innerText= `${a} / ${b} = ${addres}`;
+            })
+         </script>
+    </body>
+</html>

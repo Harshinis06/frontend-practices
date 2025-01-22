@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr=[1,2,3,4,5,6,7];
+         let x=arr.slice(1,5)
+         console.log(x);
+         console.log(arr);
+
+         let y=arr.splice(2,2,26,15);
+         console.log(y);
+         console.log(arr);
+
+         arr.forEach(myFunction)
+         function myFunction(ele,index,array){
+            console.log(array[index]);
+                     }
+
+         arr.forEach((ele,index,array)=>{
+            let inc=ele+1;
+            array[index]=inc;
+            
+         })
+         console.log(arr);
+
+        let arr1=[2001,2004,2003,2002];
+        let ages=arr1.map((year)=>{
+        let age=2023-year;
+            return age;
+        })
+        console.log(ages);
+
+      
+        let arr2=['a','b','c','d'];
+           let arr3=arr+arr2;
+          console.log(arr3);
+          console.log(arr2.concat(arr));
+
+          let array=[11,[12,13],[14,15,16],17];
+          let arr4=array.flat(7);
+          console.log(arr4);
+          console.log(array);
+          let b=array.flat()
+          console.log(b);
+
+          let res1=array.flat()
+          let res=res1.join(' ');
+          console.log(res);
+
+          let b1=arr2.reverse();
+          console.log(arr2);
+          console.log(b1);
+        
+          let rev=arr2.indexOf('c',1)
+          console.log(rev);
+
+          let lastrev=arr2.lastIndexOf('c',2);
+          console.log(lastrev);
+
+          let incl=arr2.includes('c')
+          console.log(incl);
+
+          let fin=arr2.find((ele,index,array)=>{
+            return index==0;
+          })
+          console.log(fin);
+           
+          let str=['az',8,876,39,9,'ac','by','xl','md','cd']
+          let sor=str.sort();
+          console.log(sor);
+          console.log(str);
+        
+          function add(a,b=0){
+             return a+b;
+          }
+          console.log(add(2));
+
+          let fruit=['apple','orange','grapes'];
+          let obj={
+            name:'achu',
+            address:'banglore',
+            age:22,
+          hobbi:  function(){
+            return this.name+' '+this.address
+          }
+          }
+          let apple=fruit[0];
+          let nam=obj.name;
+          console.log(apple,nam);
+          console.log(obj.hobbi());
+
+          function sum(a,...num){
+              console.log(num);
+              console.log(a);
+          }
+          sum(3,3,2,1,5,7,2,8)
+
+          let z=76;
+          z=867;
+          console.log(z);
+          const v=766;
+       // v=86;
+        console.log(v);
+            var l=90;
+            var l=55;
+            l=56;
+            console.log(l);
+
+            setTimeout(()=>{
+                console.log("hello");
+            },3000)
+
+            let msg=()=>{
+                console.log("msg function");
+            }
+            console.log("hello starts");
+            let Timeout=setTimeout(()=>{
+               console.log("hello i am set timeout");
+            },3000)
+            console.log("hello");
+            msg();
+
+            setTimeout(()=>{
+                clearTimeout(Timeout)
+            },3000)
+            clearTimeout(Timeout)
+
+            // let count=0;
+            // let msgs=()=>{
+            //     console.log("msg function",+count);
+            // }
+            //     setInterval(msgs,1000)
+
+            //     let interval=setTimeout(msgsnj,1000)
+            //     setTimeout(()=>{
+            //         clearInterval(interval)
+            //     },8000)
+            
+                let x1=10;
+                console.log(x1);
+                setTimeout(()=>{
+                    console.log("fun1");
+                },2000)
+                setTimeout(()=>{
+                    console.log("fun2");
+                },1000)
+                setTimeout(()=>{
+                    console.log("fun3");
+                },500)
+                console.log('outer fun');
+
+                let pro=new promise(function(resolved,rejected)=>{
+                    let temp=5;
+                    // if(temp>10){
+                    //     resolved("promise resolve")
+                    // }
+                    // else{
+                    //     rejected("promise rejected")
+                    // }
+                    pro.then(())
+                })
+                console.log(pro);
+        </script>
+</body>
+</html>

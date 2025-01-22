@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="validate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <title>Document</title>
+</head>
+<body>
+   
+  <div class="container">
+   
+    <form id="myForm" action="message.html" onsubmit="return validateForm()">
+      <h1> Registration Form</h1>
+        <table>
+            <tr>
+                <td><label for="name">FullName:</label></td>
+                <td>
+                    <input type="text" id="name" name="name" required>
+                    <div id="nameError" class="error-message"></div>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="phone">PhoneNumber:</label></td>
+                <td>
+                    <input type="tel" id="phone" name="phone" required>
+                    <div id="phoneError" class="error-message"></div>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td>
+                   
+                    <input type="password" id="password" name="password" required >
+                    <!-- <span class="password-toggle-icon"> <i class="fas fa-eye"></i></span></div> -->
+                    <div id="passwordError" class="error-message"></div>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="confirmPassword">ConfirmPassword:</label></td>
+                <td>
+                    <input type="password" id="confirmPassword" name="confirmPassword" required>
+                    <div id="confirmPasswordError" class="error-message"></div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <button type="submit">Submit</button></td>
+            </tr>
+        </table>
+    </form>
+   <script src="validate.js"></script>
+        
+</body>
+</html>

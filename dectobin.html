@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function dec()
+{       let n=Number(prompt("enter a decimal value"));
+       let i=1,bit=0;
+       while(n>0){
+        let r=n%2;
+        bit=bit+r*i;
+        n/=2;
+        i*=10;       
+       }
+       console.log(bit);
+    }
+    dec();
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

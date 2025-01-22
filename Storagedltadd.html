@@ -1,0 +1,15 @@
+<html>
+    <title>storage</title>
+    <head>
+
+    </head>
+<body>
+    <script>
+        let student={name:'harshini',age:22,gender:'female'};
+        sessionStorage.setItem("student",JSON.parse(student));
+        let localStorage1=sessionStorage.getItem("student");
+        console.log(localStorage1 ,typeof localStorage1);
+    </script>
+</body>
+
+</html>

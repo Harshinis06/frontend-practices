@@ -1,0 +1,75 @@
+*{
+   margin:0px;
+}
+header{
+    color:white;
+    background-color:black;
+    display:flex;
+    justify-content:space-between;
+   align-items: center;
+   flex-wrap: wrap;
+    padding:20px;
+}
+header>span>h1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: fantasy;
+}
+span{
+    color:orange;
+    font-family:fantasy;
+}
+header>div>nav{
+    display:inline-block;
+    padding:10px;
+    background-color: orange;
+    color:white;
+    border-radius: 10px;
+}
+div>nav{
+    margin-left:40px
+}
+header>div>nav:hover{
+    background-color: wheat;
+    color:orangered;
+    cursor: pointer;       
+}
+.landing{
+    background: url("assests/office.jpg") no-repeat 0px 0px scroll;
+    background-size: cover;
+    opacity:0.8;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.wrapper{
+   text-align:center;
+   color:white;
+   
+}
+.wrapper>h1{
+   font-family:fantasy;
+   padding-bottom: 50px;
+}
+.wrapper>button{
+    background-color: orange;
+    border:1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 15px;
+    color: white;
+  
+}
+.wrapper>button:hover{
+    color:orangered;
+    background-color: khaki;
+}
+@media only screen and (max-width:720px){
+    header>h1{
+      padding-left: 180px;
+      padding-bottom: 30px;
+    }
+ 
+}

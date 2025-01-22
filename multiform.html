@@ -1,0 +1,252 @@
+<html>
+    <head>
+        <title>form</title>
+        <style>
+            body{
+                background:yellow url("assests/job.jpg") no-repeat 0px 0px fixed ;
+                background-size: cover;
+                color:white; 
+                font-family:cursive;
+
+               
+            }
+            fieldset{
+                border: 2px solid white;background-color: rgba(213, 228, 250, 0.2);
+                margin-top: 30px;
+                
+            }
+            legend{
+                background-color: teal;
+                border:2px solid white;
+                border-radius:0px 32px 0px 24px;
+                padding:15px;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+               
+            }
+            input{
+                height: 35px;
+                border-radius: 10px;
+            }
+          #button{
+            display: inline;
+            padding-left: 600px; 
+            width:25px;
+            border-radius: 5px;
+          }
+      
+           
+        </style>
+    </head>
+    <body>
+        <form onsubmit="validate()" method="post" action="">
+            <fieldset>
+                <legend>Persnal Information</legend>
+                
+                   <table cellpadding="25px">
+                    <div id="first">
+                    <tr>
+                        <td><lable>Name</lable></td>
+                        <td><input type="text"/></td>
+                        <td><lable>Middle Name</lable></td>
+                        <td><input type="text"/></td>
+                        <td><lable>Last Name</lable></td>
+                        <td><input type="text"/></td>
+                    </tr>
+                    <tr>
+                        <td><lable>Father's Name</lable></td>
+                        <td><input type="text"/></td>
+                        <td><lable>Mother's Name</lable></td>
+                        <td><input type="text"/></td>
+                    </tr>
+                    <tr>
+                        <td><lable>Current Address</lable></td>
+                        <td><textarea rows="4" cols="25"></textarea></td>
+                        <td><lable>Permanent Address</lable></td>
+                        <td><textarea rows="4" cols="25"></textarea></td>
+                    </tr>
+                    <tr><td>Phone Number</td></tr>
+                    <tr>
+                        <td><lable>Landline Number</lable></td>
+                        <td><input type="text"/></td>
+                        <td><lable>Mobile Number</lable></td>
+                        <td><input type="text"/></td>
+                    </tr>
+                    <tr>
+                        <td><lable>Date Of Birth</lable></td>
+                        <td><input type="date"/></td>
+                        <td><lable>Place Of Birth</lable></td>
+                        <td><input type="text"/></td>
+                    </tr>
+                    <tr>
+                        <td><label>Select Gender</label></td>
+                        <td></td>
+                        <td><input type="radio" name="r1">Male</td>
+                        <td><input type="radio" name="r1">Female</td>
+                    </tr>
+                    <tr>
+                        <td><label>Qualification</label></td>
+                        <td><input type="text"/></td>
+                        <td><lable>Year Of Passing</lable></td>
+                       <td><input type="month"/></td>
+                    </tr>
+                  <tr>
+                    <td><lable>Languages Known</lable></td>
+                              <td></td>            
+                      <td><input type="checkbox"/>
+                        Tamil</td>
+                        <td><input type="checkbox"/>
+                            Hindi</td> 
+                            <td><input type="checkbox"/>
+                                English</td>
+                  </tr>
+                  <tr>
+                    <td><lable>Select Your Hobbies</lable></td>
+                              <td></td>            
+                      <td><input type="checkbox"/>
+                        Drawing</td>
+                        <td><input type="checkbox"/>
+                            Book Reading</td> 
+                            <td><input type="checkbox"/>
+                                playing</td>
+                  </tr>
+                  <tr>
+                    <td><lable>About Yourself</lable></td>
+                    <td><textarea rows="4" cols="25"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Nationality</td>
+                        <td><select>
+                            <option>America</option>
+                            <option>India</option>
+                            <option>Japan</option>
+                            <option>China</option> 
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><lable>Aadhar Card Number</lable></td>
+                        <td><input type="text"/></td>
+                        <td><lable>Pan Card Number</lable></td>
+                        <td><input type="text"/></td>
+                    </tr>
+                  </div>
+                 
+                </table>
+            </fieldset>
+            <fieldset>
+                    <legend>Education Details</legend>
+                    <table cellpadding="25px">
+                        <div id="sec">
+                            <tr>
+                                <th>SNo</th>
+                                <th>Company</th>
+                                <th>Institute / University</th>
+                                <th>Year of Passing</th>
+                                <th>Marks(%)</th>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td><input type="text"/></td>
+                                <td><input type="text"/></td>
+                                <td><input type="month"/></td>
+                                <td><input type="text"/></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td><input type="text"/></td>
+                                <td><input type="text"/></td>
+                                <td><input type="month"/></td>
+                                <td><input type="text"/></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td><input type="text"/></td>
+                                <td><input type="text"/></td>
+                                <td><input type="month"/></td>
+                                <td><input type="text"/></td>
+                            </tr>
+
+                  </div>
+                  </table>
+            </fieldset>
+            <fieldset>
+                <legend>Work Experience</legend>
+                <table cellpadding="25px">
+                    <div id="thr">
+                        <tr>
+                            <th>SNo</th>
+                            <th>Company</th>
+                            <th>Work/Roles</th>
+                            <th>From Date</th>
+                            <th>To Date</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td><textarea rows="4" cols="25"></textarea></td>
+                            <td><textarea rows="4" cols="25"></textarea></td>
+                            <td><input type="month"/></td>
+                            <td><input type="month"/></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td><textarea rows="4" cols="25"></textarea></td>
+                            <td><textarea rows="4" cols="25"></textarea></td>
+                            <td><input type="month"/></td>
+                            <td><input type="month"/></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td><textarea rows="4" cols="25"></textarea></td>
+                            <td><textarea rows="4" cols="25"></textarea></td>
+                            <td><input type="month"/></td>
+                            <td><input type="month"/></td>
+                        </tr>
+              </div>
+              </table>
+        </fieldset>
+        <fieldset>
+            <legend>Other Details</legend>
+            <table cellpadding="25px">
+                <div id="four">
+                    <tr>
+                        <td><label>Job Type</label></td>
+                        
+                        <td><input type="radio" name="r1">Permanent</td>
+                        <td><input type="radio" name="r1">Contract</td>
+                        <td><input type="radio" name="r1">Other</td>
+                    </tr>
+                    <tr>
+                        <td><lable>Date Of Joining</lable></td>
+                        
+                        <td><input type="date"/></td>
+                        <td><lable>Time Of Joining</lable></td>
+                        <td><input type="time"/></td>
+                    </tr>
+                    <tr>
+                        <td>Prefered Job Location</td>
+                        
+                        <td><input type="radio" name="r1">Hyderabad</td>
+                        <td><input type="radio" name="r1">Bangalore</td>
+                        <td><input type="radio" name="r1">Other</td>
+                    </tr>
+                    <tr>
+                        <td>Willing to Relocate to Hyderabad ?</td>
+                        
+                        <td><input type="radio" name="r1">Yes</td>
+                        <td><input type="radio" name="r1">No</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox"/>
+                            <lable>Iam here declaring that all the above mentioned information is true as per my knowledge.</lable>
+                            </td>
+                        </tr>
+                        
+                </div>
+            </table>
+            <div id="button">
+            <input type="submit" value="Submit"></input>
+            <input type ="reset" value="Reset"></input>
+            </div>
+      </fieldset>
+        </form>
+    </body>
+</html>

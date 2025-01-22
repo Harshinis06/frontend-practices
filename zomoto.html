@@ -1,0 +1,178 @@
+<html>
+    <head>
+    <title>zomoto</title>
+    <link rel="stylesheet" href="D:\WebClass\css\bootstrap.css">
+    <link rel="stylesheet" href="D:\WebClass\css\mdb.css">
+    <style>
+       
+
+        .table-img {
+            width: 50px !important;
+            height: 50px !important;
+        }
+        .btn1{
+            width: 20px;
+    height: 20px;
+   
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    
+        }
+    </style>
+    </head>
+    <body>
+        <div class="page-header  bg-dark text-center text-warning p-4 d-flex  justify-content-between ">
+            ZOMOTO
+            <nav class="btn btn-warning ">home</nav>
+            <nav class="btn btn-warning" >home</nav>
+            <nav class="btn btn-warning" >home</nav>
+            <nav class="btn btn-warning" >home</nav>
+        </div>
+        <div class="section bg-light">
+            <h1 class="text-warning">ADD ITEMS</h1>
+            <p>ijvnoqierhnvoqknrvlkroiqjoivnmaoooiojo
+                vhnwloevna;okn;oirhg;oithbokn;slkfnb;oish
+                ijvnoqierhnvoqknrvlkroiqjoivnmaoooiojo
+                vhnwloevna;okn;oirhg;oithbokn;slkfnb;oishbijvnoqierhnvoqknrvlkroiqjoivnmaoooiojo
+                vhnwloevna;okn;oirhg;oithbokn;slkfnb;oishbb
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laborum odit debitis nulla, facilis animi, delectus fugiat ad,
+                ipsam eligendi repellat distinctio? Obcaecati blanditiis similique
+                tempora delectus nisi nam magnam necessitatibus
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, velit
+                consequatur. Sit dolor, vitae doloribus veritatis provident maiores
+                placeat fugiat neque architecto aperiam, dolorem quis, quaerat sequi
+                minima est repellendus.</p>
+
+             <div class="container">
+             <div class="row">
+                
+                <table class="table mt-2">
+                    
+                        <thead class="text-center">
+                            <tr>
+                                <th>FoodId</th>
+                                <th>ItemName</th>
+                                <th>Rate</th>
+                                <th>Quantity</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">                                                                                                             
+                            <tr>
+                                <td>001</td>
+                                <td><img src="assests/coffee.webp" class="img-fluid table-img"></td>
+                                <td>20/-</td>
+                                <td>  <button class="btn1 btn-primary "id="incre">+</button>
+                                    <span id="result"></span>
+                                    <button class="btn1 btn-warning " id ="decre">-</button></td>
+                                <td>
+                                    <span id="total"></span>
+                                </td>
+                            </tr>
+        
+                            <tr>
+                                <td>002</td>
+                                <td><img src="assests/coffee.webp" class="img-fluid table-img"></td>
+                                <td>30/-</td>
+                                <td>
+                                    <button class="btn1 btn-primary "id="incre1">+</button>
+                                    <span id="result1"></span>
+                                    <button class="btn1 btn-warning " id ="decre1">-</button></td>
+                                <td>
+                                    <span id="total1"></span>
+                                </td>
+                            </tr>
+        
+                            <!-- <tr>
+                                <td>001</td>
+                                <td><img src="assests/coffee.webp" class="img-fluid table-img"></td>
+                                <td>1000/-</td>
+                                <td> <button class="btn1 btn-primary "id="incre"></button>
+                                    <span id="result"></span>
+                                    <button class="btn1 btn-warning " id ="decre"></button></td>
+                                <td>
+                                    <span id="total"></span>
+                                </td>
+                            </tr>
+        
+                            <tr>
+                                <td>001</td>
+                                <td><img src="assests/coffee.webp" class="img-fluid table-img"></td>
+                                <td>1000/-</td>
+                                <td><button class="btn1 btn-primary "id="incre"></button>
+                                    <span id="result"></span>
+                                    <button class="btn1 btn-warning " id ="decre"></button></td>
+                                <td>
+                                    <span id="total"></span>
+                                </td>
+                            </tr> -->
+                        </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+        
+<script>
+    let increase=document.getElementById('incre');
+    let res=document.getElementById('result');
+    let totaly=document.getElementById('total');
+    increase.addEventListener('click',iteamaded);
+ 
+    let a=0;
+    let b=0;
+    function iteamaded(){
+a++;
+res.innerText=a;
+b++;
+totaly.innerText=b*20;
+    }
+
+    let decrease=document.getElementById('decre');
+    decrease.addEventListener('click',itemminus);
+    function itemminus(){
+        if(a>0){
+        a--;
+    res.innerText=a;
+    b--;
+    totaly.innerText=b*20;
+        }
+        else{
+            alert('you have to add the items');
+        }
+    }
+</script>
+<script>
+
+    let increase1=document.getElementById('incre1');
+    let res1=document.getElementById('result1');
+    let totaly1=document.getElementById('total1');
+    increase1.addEventListener('click',iteamaded);
+ 
+    let a1=0;
+    let b1=0;
+    function iteamaded(){
+a1++;
+res1.innerText=a1;
+b1++;
+totaly1.innerText=b1*30;
+    }
+
+    let decrease1=document.getElementById('decre1');
+    decrease1.addEventListener('click',itemminus);
+    function itemminus(){
+        if(a1>0){
+        a1--;
+    res1.innerText=a1;
+    b1--;
+    totaly1.innerText=b1*30;
+        }
+        else{
+            alert('you have to add the items');
+        }
+    }
+</script>
+
+    </body>
+</html>

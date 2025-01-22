@@ -1,0 +1,31 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.user-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: antiquewhite  ;
+}
+
+.user-card h2 {
+    margin-top: 0;
+}
+
+.user-card p {
+    margin: 5px 0;
+}
+
+#search {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+body{
+    background-color: cadetblue;
+}
+

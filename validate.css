@@ -1,0 +1,101 @@
+.form-group {
+    margin-bottom: 20px;
+  }
+ myForm{
+  width: 100px;
+ }
+  label {
+    display: block;
+    /* margin-bottom: 3.5px; */
+  }
+
+  input[type="text"],
+  input[type="tel"],
+  input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px
+  }
+
+  
+  button {
+    padding: 10px 20px;
+    background-color: #ffae00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #a1b300;
+  }
+  
+  .container {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100vh;
+  
+  }
+
+  .error-message{
+    color:red;
+    margin-right: 50px;
+  }
+
+  /* body {
+  
+    background-color: #d39c9c; 
+    margin: 0; 
+    padding: 0; 
+  } */
+
+  body {
+    margin: 0; 
+    padding: 0;
+    background: linear-gradient(  to bottom , #f2f2f2, #ffffff); 
+}
+
+  .container {
+    max-width: 400px;
+    max-height: 400px ;
+    margin: 0 auto;
+    
+     padding: 120px; 
+    background-color: rgba(247, 232, 232, 0.8);     
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(192, 185, 185, 0.2);
+  }
+
+
+
+ 
+    /* .password-toggle-icon {
+    width: 100%;
+    padding: px;
+    position: absolute;
+    top: 0%;
+     right: 10px; 
+    transform: translateY(-0%);
+    cursor: pointer; */
+  
+  
+  /* .password-toggle-icon i {
+    width: 100%;
+    padding: 5px;
+   
+    margin-bottom: 10px
+    /* font-size: 18px;
+    line-height: 1;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+    margin-bottom: 20px; 
+  
+  .password-toggle-icon i:hover {
+    color: #000;
+  }*/
+
+

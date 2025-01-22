@@ -1,0 +1,71 @@
+ <html>
+    <head>
+        <title>sound wave</title>
+        <style>
+             body{
+            background-color:black;
+           }  
+           div{
+           top:150px;
+         left:200px;
+         
+         position:relative;
+           }
+           div>i{
+            display: inline-block;
+            width: 10px;
+           height: 100px;
+            background-color: white;
+            border-radius: 5px;
+             /* margin-top: 90px;
+            margin-left: 50px;
+            margin-bottom:30px ;  */
+            margin:90px;
+
+            animation:waves 1s linear infinite   2s;
+           }
+           @keyframes waves{
+            0%{ 
+                
+                margin-bottom: 30px; 
+                height: 100px; 
+               
+            }
+            50%{
+              
+                margin-bottom: 100px; 
+                  height:50px;
+            }
+           }
+           div>i:first-child{
+                animation-delay: 0.1s;
+                background-color: chartreuse;
+           }
+           div>i:nth-child(2){
+                animation-delay: 0.3s;
+                background-color: darkcyan;
+           }
+           div>i:nth-child(3){
+                animation-delay: 0.5s;
+                background-color: aqua;
+           }
+           div>i:nth-child(4){
+                animation-delay: 0.7s;
+                background-color: indianred;
+           }
+           div>i:last-child{
+                animation-delay: 0.9s;
+                background-color: orangered;
+           }
+        </style>
+    </head>
+    <body>
+        <div>
+          <i></i>
+          <i></i>
+          <i></i>
+          <i></i>
+          <i></i>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,9 @@
+.btn-warning {
+    color:cornflowerblue;
+    border-radius: 15px;
+  }
+  .section{
+    background: url("assests/office.jpg") no-repeat 0px 0px scroll;
+    background-size: cover;
+  height: 100vh;
+  }

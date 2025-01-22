@@ -1,0 +1,91 @@
+<html> <head>
+    <title>
+        calculator
+    </title>
+   
+        <!-- <link rel="stylesheet" href="D:\WebClass\css\bootstrap.css">
+        <link rel="stylesheet" href="D:\WebClass\css\mdb.css">
+        <link rel="stylesheet" href="D:\WebClass\fa\css\all.css"> -->
+        
+        <style>
+            #btn-ac{
+                background-color: red;
+            }
+            .cal{
+                border: 2px black solid;
+                /* height:70%; */
+                margin:auto;
+                width:20%;
+                margin-top:50px;
+                text-align: center;
+                background-color: black;
+                display: center;
+            }
+            button{
+                border-radius:50%;
+                width: 50px;
+                height:50px;
+            
+                margin-top:10px;
+            }
+             #equal{
+                background-color: forestgreen;
+            }
+            #btn-del{
+                background-color: orange;
+            }
+            input{
+                /* margin-top: 80px; */
+                padding-top:30px;
+                width: 100%;
+                height: 55px;
+                text-align:right;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="cal">
+        <div class="input-box">
+            <input type="text" name="" id="textin">
+        </div>
+        <div class="buttons">
+        <div>
+            <button class="btn" id="btn-ac">AC</button>
+            <button class="btn" id="btn-del">DEL</button>
+            <button class="btn"> %</button>
+            <button class="btn">/</button>
+        </div>
+        
+        <div>
+            <button class="btn" >7</button>
+            <button  class="btn">8</button>
+            <button  class="btn">9</button>
+            <button class="btn">*</button>
+        </div>
+        
+        <div>
+            <button  class="btn">4</button>
+            <button  class="btn">5</button>
+            <button  class="btn">6</button>
+            <button class="btn">-</button>
+        </div>
+        
+        <div>
+            <button class="btn">1</button>
+            <button  class="btn">2</button>
+            <button  class="btn">3</button>
+            <button class="btn" >+</button>
+        </div>
+
+        <div>
+            <button class="btn">00</button>
+            <button class="btn">0</button>
+            <button class="btn">.</button>
+            <button class="btn" id="equal">=</button>
+            </div>
+            </div>
+        </div>
+        <script src="cal.js"></script>
+    </body>
+</html>
+

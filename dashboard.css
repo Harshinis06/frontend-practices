@@ -1,0 +1,13 @@
+.dash{
+    font-size: 29px;
+    color:aliceblue;
+    background-color:rgb(105, 101, 100);
+}
+.current{
+    font-size: 29px;
+    color:aliceblue;
+    background:linear-gradient(35deg,rgb(132, 132, 219),rgb(168, 170, 190));
+}.table-img {
+    width: 50px !important;
+    height: 50px !important;
+}

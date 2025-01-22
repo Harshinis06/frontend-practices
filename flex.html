@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>flexbox</title>
+        <style>
+        #container{
+            width:1250px;
+            height:340px;
+             padding:50px;
+             /* transform:translateX(350px); */
+            border:1px solid black;
+         }
+         #sec{
+         padding-left:100px;
+        }
+        #third{
+            padding-left:100px;
+        }
+         img{
+            width:200px;
+            height:200px;
+            
+            border:1px solid black;
+         }
+         
+         section>div{
+            display:inline-block;  
+            transform:translateX(180px);
+         }
+    
+         </style>
+        <!-- <link rel="stylesheet" href="layout.css"> -->
+    </head>
+    <body>
+        <div id="container">
+        <section>
+            <div id="first">
+            <img src="assests/coffee.webp">
+             </div>
+             <div id="sec">
+                <img src="assests/emma.png">
+                 </div>
+                 <div id="third">
+                    <img src="assests/emma.png">
+                     </div>
+    </section>
+        </div>
+    </body>
+</html>
